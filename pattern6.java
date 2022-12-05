@@ -16,7 +16,7 @@ public class pattern6 {
             }
             for (int j = 0; j <= i; j++) // inner loop for number of columns
             {
-                System.out.print("* "); // print star
+                System.out.print(j); // print star
             }
 
             System.out.println(); // ending line after each row

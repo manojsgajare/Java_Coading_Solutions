@@ -6,7 +6,7 @@ public class spiralMatrix {
 
     static void spiralPrint(int matrix[][], int t){
 
-       int r1, r2, c2, c1;
+     
        
        if(matrix.length == 0){
         return;

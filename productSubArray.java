@@ -6,12 +6,14 @@ public class productSubArray {
         // while(arr[i]){
 
         // }
-        int count[]=new int[arrr.length];
-        for (int i=0; i<arrr.length;i++){
-            for (int j=1; j<arrr.length;j++){
+            int n =3;
+
+        int count[]=new int[n];
+        for (int i=0; i<4;i++){
+            for (int j=1; j<4;j++){
                 count[i] =  arrr[i+1] * arrr[j];
             }
-           System.out.println(count[i]);
+           System.out.print(count[i] + " ");
         }
     }
 }

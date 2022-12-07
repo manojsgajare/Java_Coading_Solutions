@@ -1,5 +1,5 @@
 
-import java.util.*;
+
 
 public class GFGAtmCode {
     // Java program to accept an amount

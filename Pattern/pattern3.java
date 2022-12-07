@@ -1,3 +1,4 @@
+package Pattern;
 public class pattern3 {
 /*
  * 1

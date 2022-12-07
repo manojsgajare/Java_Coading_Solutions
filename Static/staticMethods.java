@@ -1,4 +1,4 @@
-package javaStaticKeyword;
+package Static;
 
 // Look at the errors in the below program
 

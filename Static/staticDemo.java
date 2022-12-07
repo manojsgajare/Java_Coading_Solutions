@@ -1,4 +1,4 @@
-package javaStaticKeyword;
+package Static;
 
 class staticVarAndMethodUse {
 

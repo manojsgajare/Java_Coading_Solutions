@@ -1,3 +1,4 @@
+
 public class overloading {
 
     // Method overLoading
@@ -6,7 +7,7 @@ public class overloading {
         return x - y;
     }
 
-    static int min(int x, int y) {
+    static int main(int x, int y,int b) {
 
         int z;
         z = x * y;
@@ -16,7 +17,8 @@ public class overloading {
     public static void main(String[] args) {
         int x = 10;
         int y = 20;
-        System.out.println(min(x, y));
-        System.out.println(min(x, y));
+        int c = 30;
+        System.out.println(main(x, y));
+        System.out.println(main(x, y, c));
     }
 }

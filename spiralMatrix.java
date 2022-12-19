@@ -20,6 +20,7 @@ public class spiralMatrix {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
         int matrix[][] = new int [t][t];
+        sc.close();
 
         for (int i=0;i<t;i++){
             for(int j=0; j<t;j++){

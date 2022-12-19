@@ -1,6 +1,9 @@
 
 package IMP20;
 
+/*Longest palindrome substring is: geeksskeeg
+Length is: 10 */
+
 class longestPalindrome {
 
     public static void main(String[] args) {

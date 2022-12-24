@@ -26,6 +26,7 @@ public class fibonacciRecursion {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number");
         int num = sc.nextInt();
+        sc.close();
         System.out.print(n1 + " " + n2);
         printFibonacci(num);
 

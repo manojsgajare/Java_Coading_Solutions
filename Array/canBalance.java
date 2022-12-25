@@ -18,7 +18,7 @@ public class canBalance {
             return false;
         }
 
-        while (i <= j) {    // base condition
+        while (i <= j) {    // base condition : sould be i less than or equalTo 
 
             if (leftSum > rightSum) {  // condition 1: leftsum greater than rightsum 
                 rightSum += array[j];   // j pos array element add to rightsum 
@@ -28,7 +28,7 @@ public class canBalance {
                 leftSum += array[i];    // means we need to add next elem to rightsum
                 i++;    // increse the i by 1
 
-            } else {  //
+            } else {  // if both condition not executed then execute else part
 
                 leftSum += array[i];
                 i++;

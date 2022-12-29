@@ -1,7 +1,6 @@
 package Recursion;
 
 public class factorial {
-
     static int factor(int number) {
 
         if (number == 0) {
@@ -15,5 +14,4 @@ public class factorial {
 
         System.out.println(factor(n));
     }
-
 }

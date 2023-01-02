@@ -2,9 +2,9 @@ package IMP20;
 
 public class primeNumber {
 
-    public static boolean checkPrime(int n) {
-        for (int i = 2; i < n / 2; i++) {
-            if (n % i == 0) {
+    public static boolean checkPrime(int in) {
+        for (int i = 2; i < in / 2; i++) {
+            if (in % i == 0) {
                 return false;
             }
         }

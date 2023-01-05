@@ -2,6 +2,8 @@ import java.util.HashSet;
 
 public class containsDuplicate {
 
+    // find if array contains duplicate
+
     public static boolean containsDup(int[] arr) {
         
         HashSet<Integer> num = new HashSet<>();

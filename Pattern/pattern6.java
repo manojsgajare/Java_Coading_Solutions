@@ -19,6 +19,7 @@ public class pattern6 {
             {
                 System.out.print(j); // print star
             }
+            
 
             System.out.println(); // ending line after each row
         }
